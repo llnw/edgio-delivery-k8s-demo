@@ -1,0 +1,14 @@
+apiVersion: v1
+kind: Service
+metadata:
+  name: pywai-inline-service
+spec:
+  selector:
+    app: pywai-inline-deployment
+  type: NodePort
+  ports:
+    - name: http
+      protocol: TCP
+      port: 8000
+      targetPort: 8000
+

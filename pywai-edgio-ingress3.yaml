@@ -1,0 +1,21 @@
+apiVersion: networking.k8s.io/v1
+kind: Ingress
+metadata:
+  name: external-pywai-inline-ingress3
+  annotations:
+    kubernetes.io/ingress.class: edgio
+  labels: 
+    cdn: edgio
+    
+spec:
+  rules:
+    - host: cstradtman.s.llnwi.net
+      http:
+        paths:
+          - path: /mark/and/fred/
+            pathType: Exact
+            backend: 
+              service:
+                name: pywai-inline-service
+                port:
+                  name: pywai-port
