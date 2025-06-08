@@ -6,7 +6,7 @@
 
 * Kuberntes cluster with credentials
 * Edgio Legacy Limelight account with credentials
-* Api controlled DNS server(s) - this example users Vultr
+* Api controlled DNS server(s) - this example uses Vultr
 
 
 
