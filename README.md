@@ -15,9 +15,9 @@
 * pywai-inline-deployment.yaml - yaml file describing a Kubernetes deployment object for the demo
 * pywai-inline-service.yaml - yaml file describing a Kubernetes service object for the above deployment
 * pywai-edgio-ingress.yaml - yaml file describing a Kubernetes ingress object for use with the Edgio Ingress Controller Demo
-* pywai-edgio-ingress2.yaml - yaml file describing a Kubernetes ingress object for use with the Edgio Ingress Controller Demo
-* pywai-edgio-ingress3.yaml - yaml file describing a Kubernetes ingress object for use with the Edgio Ingress Controller Demo
-* pywai-edgio-ingress4.yaml - yaml file describing a Kubernetes ingress object for use with the Edgio Ingress Controller Demo
+* pywai-edgio-ingress2.yaml - yaml file describing a second Kubernetes ingress object for use with the Edgio Ingress Controller Demo
+* pywai-edgio-ingress3.yaml - yaml file describing a third Kubernetes ingress object for use with the Edgio Ingress Controller Demo
+* pywai-edgio-ingress4.yaml - yaml file describing a fourth Kubernetes ingress object for use with the Edgio Ingress Controller Demo
 
 ## Notes
 
